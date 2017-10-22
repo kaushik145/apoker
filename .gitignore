@@ -1,5 +1,10 @@
-console_log_path
+server/node_modules/
+server/lib/
+client/node_modules/
+client/dist/
+deploy/
+node_modules/
+.idea
 npm-debug.log
-/node_modules
-/bower_components
-/dist
+*.log.*
+npm_dependencies_report.*.md
