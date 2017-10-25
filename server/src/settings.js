@@ -10,7 +10,7 @@ const settings = {
   log: {
     file: {
       level: 'info',
-      name: 'poinz.log'
+      name: 'apoker.log'
     },
     console: {
       level: 'info'

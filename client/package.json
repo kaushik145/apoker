@@ -1,7 +1,7 @@
 {
-  "name": "poinz-client",
+  "name": "apoker-client",
   "version": "0.2.1",
-  "description": "Distributed Planning Poker",
+  "description": "Agile Planning Poker",
   "private": true,
   "license": "MIT",
   "scripts": {
