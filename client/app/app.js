@@ -6,7 +6,7 @@ import log from 'loglevel';
 import 'purecss';
 import '../node_modules/purecss/build/grids-responsive-min.css';
 import '../node_modules/font-awesome/css/font-awesome.min.css';
-import './assets/poinz.styl';
+import './assets/apoker.styl';
 
 import appConfig from './services/appConfig';
 import initialState from './store/initialState';

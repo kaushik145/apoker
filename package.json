@@ -11,7 +11,7 @@
     "test": "eslint src/* test/* && mocha  --compilers js:babel-register test/unit/*",
     "lint": "eslint src/* test/*",
     "prestart": "npm run build",
-    "start": "node lib/server.js"
+    "start": "node server/lib/server.js"
   },
   "dependencies": {
     "bluebird": "3.5.0",

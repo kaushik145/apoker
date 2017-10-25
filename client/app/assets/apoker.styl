@@ -1,20 +1,20 @@
-$zuehlkePurple = #985b9c
-$zuehlkeOrange = #ff820a
-$zuehlkeDarkGrey = #4b5054
-$zuehlkeLightGrey = #575d62
-$zuehlkeLighterGrey = #e8e8e8
-$zuehlkeFontGrey = #484e54
-$zuehlkeFont = "aa_zuehlke_otpsregular", "Helvetica Neue", Helvetica, Arial, sans-serif
+$kaushikPurple = #985b9c
+$kaushikOrange = #ff820a
+$kaushikDarkGrey = #4b5054
+$kaushikLightGrey = #575d62
+$kaushikLighterGrey = #e8e8e8
+$kaushikFontGrey = #484e54
+$kaushikFont = "aa_kaushik_otpsregular", "Helvetica Neue", Helvetica, Arial, sans-serif
 
 @font-face {
-  font-family 'aa_zuehlke_otpsregular'
+  font-family 'aa_kaushik_otpsregular'
   src url('./aazuotps_30.12.13-webfont.woff2') format("woff2")
   font-weight normal
   font-style normal
 }
 
 body {
-  color $zuehlkeFontGrey
+  color $kaushikFontGrey
 }
 
 #app-root {
@@ -33,7 +33,7 @@ body {
   border-radius 2px
 
   &.pure-button-primary {
-    background-color $zuehlkePurple
+    background-color $kaushikPurple
   }
 
   i.button-icon-left {
@@ -46,7 +46,7 @@ body {
 }
 
 a {
-  color $zuehlkeOrange
+  color $kaushikOrange
 }
 
 .landing {
@@ -80,7 +80,7 @@ a {
     margin-bottom 16px
 
     input {
-      color $zuehlkeFontGrey
+      color $kaushikFontGrey
     }
 
     .info-text {
@@ -127,7 +127,7 @@ a {
 
         li {
           display inline-block
-          color $zuehlkeOrange
+          color $kaushikOrange
           padding 4px 8px
         }
       }
@@ -145,7 +145,7 @@ a {
     position relative
 
     .avatar {
-      border 2px solid $zuehlkeLightGrey
+      border 2px solid $kaushikLightGrey
       border-radius 50%
       background white
       width 60px
@@ -172,20 +172,20 @@ a {
       font-size 28px
       border 4px dashed white
       background transparent
-      color $zuehlkeLighterGrey
+      color $kaushikLighterGrey
 
-      font-family "aa_zuehlke_otpsregular", "Helvetica Neue", Helvetica, Arial, sans-serif
+      font-family "aa_kaushik_otpsregular", "Helvetica Neue", Helvetica, Arial, sans-serif
 
       &.user-estimation-given {
         // user has given estimation, but value is not yet shown
         border 4px solid white
-        background $zuehlkeLightGrey
+        background $kaushikLightGrey
       }
 
       &.revealed {
         // all estimations are shown
         background white
-        color $zuehlkeLightGrey
+        color $kaushikLightGrey
         border 4px solid white
       }
     }
@@ -197,9 +197,9 @@ a {
     }
 
     &.user-own {
-      color $zuehlkeOrange
+      color $kaushikOrange
       .avatar {
-        border 2px solid $zuehlkeOrange
+        border 2px solid $kaushikOrange
       }
     }
 
@@ -213,7 +213,7 @@ a {
     }
 
     &.user-disconnected {
-      color $zuehlkeLightGrey
+      color $kaushikLightGrey
       .avatar {
         -webkit-filter grayscale(100%)
         filter gray;
@@ -226,7 +226,7 @@ a {
         height 72px
         text-align center
         font-size 64px
-        color $zuehlkeOrange
+        color $kaushikOrange
         display none
       }
 
@@ -267,7 +267,7 @@ a {
 }
 
 .top-bar {
-  background-color $zuehlkeLightGrey
+  background-color $kaushikLightGrey
   color white
   z-index 1003
   position fixed
@@ -278,14 +278,14 @@ a {
   padding 0
   box-sizing border-box
 
-  .poinz-logo {
+  .apoker-logo {
     position fixed
     display block
-    top 0
+    top 10
     left 39px
-    font-family $zuehlkeFont
-    font-size 29px
-    color $zuehlkePurple
+    font-family $kaushikFont
+    font-size 40px
+    color $kaushikPurple
   }
 
   .quick-menu {
@@ -332,7 +332,7 @@ a {
   display block
   top 0
   left 0
-  background $zuehlkeDarkGrey
+  background $kaushikDarkGrey
   font-size 10px
   z-index 10
   width 34px
@@ -371,7 +371,7 @@ a {
   position fixed
   display block
   top 0
-  background $zuehlkeDarkGrey
+  background $kaushikDarkGrey
   z-index 10
   width 34px
   height 34px
@@ -398,7 +398,7 @@ $userMenuWidth = 300px
   bottom 0
   right $userMenuWidth * -1
   transition all 0.2s ease-out
-  background $zuehlkeLightGrey
+  background $kaushikLightGrey
   -webkit-overflow-scrolling touch
   box-sizing border-box
   padding 8px
@@ -410,7 +410,7 @@ $userMenuWidth = 300px
   }
 
   h5 {
-    color $zuehlkeOrange
+    color $kaushikOrange
     font-weight 700
     margin-bottom 8px
   }
@@ -462,7 +462,7 @@ $userMenuWidth = 300px
   bottom 0
   right $userMenuWidth * -1
   transition all 0.2s ease-out
-  background $zuehlkeLightGrey
+  background $kaushikLightGrey
   -webkit-overflow-scrolling touch
   box-sizing border-box
   padding 8px
@@ -474,7 +474,7 @@ $userMenuWidth = 300px
   }
 
   h5 {
-    color $zuehlkeOrange
+    color $kaushikOrange
     font-weight 700
     margin-bottom 8px
   }
@@ -559,8 +559,8 @@ $backlogWidth = 300px
   min-height 100%
   height auto
   // TODO: currently not shown, discuss Zühlke Branding
-  // background $zuehlkeLighterGrey url('../assets/logo-zuehlke-small.png') no-repeat bottom right
-  background $zuehlkeLighterGrey
+  // background $kaushikLighterGrey url('../assets/logo-kaushik-small.png') no-repeat bottom right
+  background $kaushikLighterGrey
 
   .backlog {
     transition all 0.2s ease-out
@@ -571,7 +571,7 @@ $backlogWidth = 300px
     left 0
     bottom 0
     z-index 1000
-    background $zuehlkeLightGrey
+    background $kaushikLightGrey
     overflow-y auto
     -webkit-overflow-scrolling touch
     box-sizing border-box
@@ -590,7 +590,7 @@ $backlogWidth = 300px
     }
 
     .story-add-form {
-      background $zuehlkeDarkGrey
+      background $kaushikDarkGrey
       padding 8px 16px 16px 16px
       margin-bottom 16px
       box-sizing border-box
@@ -613,7 +613,7 @@ $backlogWidth = 300px
       .story {
         position relative
         color white
-        background $zuehlkeDarkGrey
+        background $kaushikDarkGrey
         padding 8px 16px 16px 16px
         margin-bottom 16px
         box-sizing border-box
@@ -658,7 +658,7 @@ $backlogWidth = 300px
         }
 
         &.story-selected {
-          border-left 2px solid $zuehlkeOrange
+          border-left 2px solid $kaushikOrange
         }
 
         &.story-waiting {
@@ -684,7 +684,7 @@ $backlogWidth = 300px
     padding 16px
 
     .selected-story {
-      background $zuehlkeDarkGrey
+      background $kaushikDarkGrey
       color white
       padding 8px
 
@@ -713,7 +713,7 @@ $backlogWidth = 300px
         box-sizing border-box
         font-size 28px
         padding 8px
-        font-family $zuehlkeFont
+        font-family $kaushikFont
 
         .card-inner {
           position relative
@@ -724,20 +724,20 @@ $backlogWidth = 300px
           border 4px solid white
 
           &hover {
-            border 2px solid $zuehlkeOrange
+            border 2px solid $kaushikOrange
           }
         }
 
         &.card-selected {
           .card-inner {
-            border 4px solid $zuehlkeOrange
+            border 4px solid $kaushikOrange
           }
         }
       }
 
       button.card:focus {
         .card-inner {
-          border 4px solid $zuehlkeDarkGrey
+          border 4px solid $kaushikDarkGrey
         }
       }
     }
@@ -750,7 +750,7 @@ $backlogWidth = 300px
   bottom 8px
   right 8px
   font-size 9px
-  color $zuehlkeFontGrey
+  color $kaushikFontGrey
 }
 
 // on screens bigger than 48em width
@@ -762,8 +762,8 @@ $backlogWidth = 300px
     display none
   }
 
-  .top-bar .poinz-logo {
-    left 8px
+  .top-bar .apoker-logo {
+    left 12px
   }
 
   .board {
