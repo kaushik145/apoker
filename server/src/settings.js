@@ -4,7 +4,7 @@ const settings = {
 
   // host + port for webserver + socketserver
   serverHost: '0.0.0.0',
-  serverPort: 8080,
+  serverPort: process.env.PORT || 8080,
 
   // configuration for winston logging
   log: {
