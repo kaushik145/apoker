@@ -5,7 +5,6 @@
   "private": true,
   "author": "kaushik145@gmail.com",
   "license": "MIT",
-  },
   "scripts": {
     "test": "cd client/ && npm test &&  cd ../server && npm test",
     "build": "node build/dockerImage.js",
