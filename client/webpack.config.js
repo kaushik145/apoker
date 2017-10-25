@@ -10,9 +10,9 @@ const packageInformation = require('./package.json');
 const definePlugin = new webpack.DefinePlugin({
   __POINZ_CONFIG__: JSON.stringify({
     env: 'dev',
-    version: packageInformation.version + '-dev', // PoinZ version that is displayed in the ui
+    version: packageInformation.version + '-dev', // Apoker version that is displayed in the ui
     buildTime: new Date().getTime(),
-    wsUrl: 'http://localhost:3000' // backend websocket endpoint
+    wsUrl: 'http://localhost:8080' // backend websocket endpoint
   })
 });
 

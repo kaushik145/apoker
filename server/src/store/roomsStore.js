@@ -26,7 +26,9 @@ export default {
  * (since this roomsStore might be imported, but not actually used)
  */
 function init() {
-  redisClient = redis.createClient(settings.redis);
+  // redisClient = redis.createClient(settings.redis);
+  redisClient = redis.createClient(process.env.REDIS_URL);
+
   redisClient.on('error', LOGGER.error);
   redisClient.select(0, (err, status) => LOGGER.info('select redis 0 ' + err + ' ' + status));
 }

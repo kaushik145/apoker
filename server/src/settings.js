@@ -4,7 +4,7 @@ const settings = {
 
   // host + port for webserver + socketserver
   serverHost: '0.0.0.0',
-  serverPort: 3000,
+  serverPort: 8080,
 
   // configuration for winston logging
   log: {
@@ -21,7 +21,7 @@ const settings = {
   persistentStore: true,
 
   // configuration for redis connection (roomsStore)
-  // env variables are set by docker when linking redis container to poinz container
+  // env variables are set by docker when linking redis container to Apoker container
   // see DEPLOYMENT.md for more information
   redis: {
     host: process.env.DB_PORT_6379_TCP_ADDR || '127.0.0.1',

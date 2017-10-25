@@ -47,7 +47,7 @@ const UserMenu = ({t, language, user, setUsername, setEmail, leaveRoom, setVisit
                   onClick={saveUsername}>{t('save')}</button>
         </div>
 
-        <h5>{t('language')}</h5>
+       {/* <h5>{t('language')}</h5>
         <div className="language-selector-wrapper">
 
           <label htmlFor="language-selector-en">
@@ -65,7 +65,7 @@ const UserMenu = ({t, language, user, setUsername, setEmail, leaveRoom, setVisit
             />
             {t('german')}
           </label>
-        </div>
+        </div> */}
 
         <h5>{t('gravatar')}</h5>
         {t('gravatarInfo')}

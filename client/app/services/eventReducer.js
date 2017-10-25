@@ -90,7 +90,7 @@ const eventActionHandlers = {
         // you joined
 
         // set the page title
-        document.title = `PoinZ - ${event.roomId}`;
+        document.title = `Apoker - ${event.roomId}`;
 
         clientSettingsStore.setPresetUserId(payload.userId);
         clientSettingsStore.addRoomToHistory(event.roomId);
@@ -122,7 +122,7 @@ const eventActionHandlers = {
         // you (or you in another browser) left the room
 
         // set the page title
-        document.title = 'PoinZ';
+        document.title = 'Apoker';
 
         // let's clear some state
         return state
