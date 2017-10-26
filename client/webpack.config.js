@@ -12,9 +12,9 @@ const definePlugin = new webpack.DefinePlugin({
     env: 'dev',
     version: packageInformation.version + '-dev', // Apoker version that is displayed in the ui
     buildTime: new Date().getTime(),
-    // wsUrl: 'https://mysterious-temple-75350.herokuapp.com'
+     wsUrl: 'https://boiling-dusk-34058.herokuapp.com'
     
-     wsUrl: 'process.env.PORT'||'http://localhost:8080' // backend websocket endpoint
+     // wsUrl: 'http://localhost:8080' // backend websocket endpoint
   })
 });
 
